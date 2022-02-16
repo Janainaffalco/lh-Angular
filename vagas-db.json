@@ -1,0 +1,32 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "nome": "",
+      "foto": "foto1.jpg",
+      "descricao": "",
+      "salario": 0
+    },
+    {
+      "id": 2,
+      "nome": "Desenvolvedor Fullstack Senior",
+      "foto": "foto2.jpg",
+      "descricao": "Trabalhar com Angular",
+      "salario": 5000
+    },
+    {
+      "id": 3,
+      "nome": "Desenvolvedor Fullstack Pleno",
+      "foto": "foto3.jpg",
+      "descricao": "Trabalhar com Spring Boot e Angular",
+      "salario": 10000
+    },
+    {
+      "id": 5,
+      "nome": "Janaina",
+      "foto": "foto4.png",
+      "descricao": "Desenvolvedor e Oracle",
+      "salario": "5000"
+    }
+  ]
+}

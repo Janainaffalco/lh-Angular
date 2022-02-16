@@ -1,0 +1,22 @@
+.btn-success {
+    height: 35px;
+    width: 195px;
+    margin: 5px;
+}
+
+form {
+    margin: 10px;
+    min-height: 300px;
+    margin-left: 120px;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px;
+}
+
+h2 {
+    color: #32CD32;
+    text-align: center;
+    margin: 10px;
+}

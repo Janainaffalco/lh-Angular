@@ -1,0 +1,37 @@
+<form class="row g-3">
+    <h1>Preencha o Formulário</h1><br>
+    <div class="mb-3 row">
+        <label type="text" name="id" for="staticDescricao" class="col-sm-2 col-form-label">Id:</label>
+        <div class="col-sm-5">
+            <input type="number" name="id" [(ngModel)]="vaga.id">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label class="col-sm-2 col-form-label">nome:</label>
+        <div class="col-sm-5">
+            <input type="text" name="nome" [(ngModel)]="vaga.nome" class="form-control" required>
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label class="col-sm-2 col-form-label">Foto:</label>
+        <div class="col-sm-5">
+            <input type="text" name="foto" [(ngModel)]="vaga.foto" class="form-control" required>
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label class="col-sm-2 col-form-label">Descrição:</label>
+        <div class="col-sm-5">
+            <input type="text" name="descricao" [(ngModel)]="vaga.descricao" class="form-control" required>
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label class="col-sm-2 col-form-label">Salário:</label>
+        <div class="col-sm-5">
+            <input type="text" name="salario" [(ngModel)]="vaga.salario" class="form-control" id="remuneracao" required>
+        </div>
+    </div>
+    <button type="button" class="btn btn-success" (click)="cadastrar()">Cadastrar Vaga</button>
+    <button type="button" class="btn btn-success" (click)="atualizar(vaga.id)">Atualizar Vaga</button>
+    <button type="button" class="btn btn-success" (click)="excluir(vaga.id)">Excluir Vaga</button>
+
+</form>
