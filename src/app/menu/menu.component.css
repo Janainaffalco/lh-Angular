@@ -2,3 +2,9 @@ nav .conavbar navbar-expand-lg navbar-light bg-light {
     height: 10px;
     width: 90px;
 }
+
+h2 {
+    color: #32CD32;
+    text-align: center;
+    margin: 10px;
+}
